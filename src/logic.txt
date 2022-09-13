@@ -1,0 +1,13 @@
+black jack -> need 1 main container
+                -> need 2 wrappers for the images -> one for the user, the second for the computer
+                -> logic => first to 21 wins, add the cardType(value) to determine winner
+                         => if the user or computer go over 21 they automatically lose
+                         => computer folds if they get to 18-20, else they keep drawing (rand func for if the comp is at 17)
+                         => if both the computer and the user fold and is a draw -> show it's a tie alert
+                         => win, lose, or tie alerts -> clear the game and restart automatically 
+                -> Functions needed => 1. check if the user or computer won, lost, or tie
+                                    => 2. random function to see if the computer should fold or draw
+                                    => 3. clear game function, when someone wins
+
+
+                                    
