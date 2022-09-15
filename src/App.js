@@ -71,42 +71,42 @@ function App() {
       alert("User wins, You got 21!");
       setUserCardValue(userCardValue = 0);
       setCompCardValue(compCardValue = 0);
-      let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+      let arr = [IMG_KEY];
       setCardImage(cardImage = arr);
       setCardImageComp(cardImageComp = arr)
     } else if (compCardValue === 21) {
       alert("AI wins, It got 21!");  
       setUserCardValue(userCardValue = 0);
         setCompCardValue(compCardValue = 0);
-        let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+        let arr = [IMG_KEY];
         setCardImage(cardImage = arr);
         setCardImageComp(cardImageComp = arr);
     } else if (userCardValue >= 22) {
       alert("AI wins, You went over 21!");  
       setUserCardValue(userCardValue = 0);
         setCompCardValue(compCardValue = 0);
-        let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+        let arr = [IMG_KEY];
         setCardImage(cardImage = arr);
         setCardImageComp(cardImageComp = arr);
     } else if (compCardValue >= 22) {
         alert("User wins, AI went over 21!");  
         setUserCardValue(userCardValue = 0);
         setCompCardValue(compCardValue = 0);
-        let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+        let arr = [IMG_KEY];
         setCardImage(cardImage = arr);
         setCardImageComp(cardImageComp = arr);
     } else if (userCardValue > compCardValue && userCardValue <= 21 && compCardValue >= 18 && compCardValue < 21) {
         alert("User wins!");  
         setUserCardValue(userCardValue = 0);
         setCompCardValue(compCardValue = 0);
-        let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+        let arr = [IMG_KEY];
         setCardImage(cardImage = arr);
         setCardImageComp(cardImageComp = arr);
     } else if (compCardValue > userCardValue && compCardValue <= 21 && userCardValue >= 18 && userCardValue < 21) {
         alert("AI wins!");  
         setUserCardValue(userCardValue = 0);
         setCompCardValue(compCardValue = 0);
-        let arr = ["https://deckofcardsapi.com/static/img/back.png"];
+        let arr = [IMG_KEY];
         setCardImage(cardImage = arr);
         setCardImageComp(cardImageComp = arr);
     }
